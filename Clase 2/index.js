@@ -74,12 +74,34 @@ if(condicion1){
 //   console.log("entramos");
 // }
 
-let edad = parseInt(prompt("Ingrese su edad"));
+// let edad = parseInt(prompt("Ingrese su edad"));
 
-if(edad <= 14){
-  alert("No puedes entrar a la fiesta");
-}else if(edad < 18){
-  alert("Puedes entrar con un adulto");
+// if(edad <= 14){
+//   alert("No puedes entrar a la fiesta");
+// }else if(edad < 18){
+//   alert("Puedes entrar con un adulto");
+// }else{
+//   alert("Puedes entrar a la fiesta");
+// }
+
+/* 
+valor1 && valor2 es verdadero cuando ambos son verdaderos
+                 de lo contrario es falso
+
+valor1 && valor2 es verdadero cuando al menos uno de los valores es  verdadero de contrario es falso           
+*/
+
+/* let nombre = prompt("Ingrese el nombre");
+
+if(nombre != "" && nombre === "andres"){
+  alert("Hola andres");
 }else{
-  alert("Puedes entrar a la fiesta");
+  alert("valor ingresado incorrecto");
+} */
+
+if(!"andres".includes("p")){
+  console.log("no la contiene");
+}else{
+  console.log("si la contiene");
 }
+
