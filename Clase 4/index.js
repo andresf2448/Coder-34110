@@ -35,11 +35,11 @@ function nombre(par1, par2, ..., parn){
 
 // function sumar(num1, num2) {
 //   let resultado = num1 + num2;
-//   return resultado;
+//   console.log("resultado es: ", resultado);
 // }
 
 // let resultadoSuma = sumar(10, 9);
-// console.log(resultadoSuma);
+// console.log("retorno de la funcion", resultadoSuma);
 
 // function prueba() {
 //   console.log("Hola");
@@ -49,7 +49,77 @@ function nombre(par1, par2, ..., parn){
 
 // prueba();
 
-function calculadora(num1, num2, operacion) {
+// function calculadora(num1, num2, operacion) {
+//   switch (operacion) {
+//     case "+":
+//       return num1 + num2;
+//       break;
+
+//     case "-":
+//       return num1 - num2;
+//       break;
+
+//     case "/":
+//       return num1 / num2;
+//       break;
+
+//     case "*":
+//       return num1 * num2;
+//       break;
+
+//     default:
+//       return "Operacion no disponible";
+//       break;
+//   }
+// }
+
+// let num1 = parseInt(prompt("Ingrese el numero1"));
+// let num2 = parseInt(prompt("Ingrese el numero2"));
+// let operacion = prompt("Ingrese la operacion deseada");
+
+// let resultado = calculadora(num1, num2, operacion);
+// let mensaje = `El resultado de la operacion es ${resultado}`;
+// alert(mensaje);
+/* let resultado = 0;
+
+function sumar(num1, num2) {
+  resultado = num1 + num2;
+}
+
+sumar(6, 7);
+
+console.log(resultado); */
+
+// function sumar(num1, num2) {
+//   let resultado = num1 + num2;
+// }
+
+// sumar(6, 7);
+
+// console.log(resultado);
+
+// let nombre = "andres";
+// nombre = "mariana";
+// console.log(nombre);
+
+// function sumar(num1, num2) {
+//   let resultado = num1 + num2;
+//   return resultado;
+// }
+
+// function restar(num1, num2) {
+//   let resultado = num1 - num2;
+//   return resultado;
+// }
+
+// const suma = function (a, b) {
+//   return a + b;
+// };
+// console.log(suma(4, 5));
+
+// const suma = (num1, num2) => num1 + num2;
+// suma(1, 6);
+/* const calculadora = (num1, num2, operacion) => {
   switch (operacion) {
     case "+":
       return num1 + num2;
@@ -72,11 +142,30 @@ function calculadora(num1, num2, operacion) {
       break;
   }
 }
+ */
+// saludar();
 
-let num1 = parseInt(prompt("Ingrese el numero1"));
-let num2 = parseInt(prompt("Ingrese el numero2"));
-let operacion = prompt("Ingrese la operacion deseada");
+// function saludar(){
+//   console.log("Hola");
+// }
+// saludar();
 
-let resultado = calculadora(num1, num2, operacion);
-let mensaje = `El resultado de la operacion es ${resultado}`;
-alert(mensaje);
+// const saludar = () => {
+//   console.log("Hola");
+// }
+
+// const suma = (a, b) => a + b;
+// const resta = (a, b) => a - b;
+// const iva = (x) => x * 0.21;
+
+// let precioProducto = 500;
+// let descuento = 50;
+
+// let nuevoPrecio = resta(suma(precioProducto, iva(precioProducto)), descuento);
+//                 = resta(suma(500, iva(500)), 50);
+//                 = resta(suma(500, 500 * 0.21), 50);
+//                 = resta(500 + 500 * 0.21, 50);
+//                 = (500 + 500 * 0.21) - 50;
+
+// let nuevoPrecio = resta(suma(precioProducto, iva(precioProducto)), descuento);
+// console.log(nuevoPrecio);
