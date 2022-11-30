@@ -98,24 +98,41 @@ for(const producto of productos){
 
 // console.log(productos);
 
-const productos = [
-  { id: 1, nombre: "camisa", precio: 700 },
-  { id: 2, nombre: "pantalon", precio: 1350 },
-  { id: 3, nombre: "zapato", precio: 1000 },
-  { id: 4, nombre: "correa", precio: 950 },
-];
+// const productos = [
+//   { id: 1, nombre: "camisa", precio: 700, disponible: false },
+//   { id: 2, nombre: "pantalon", precio: 1350, disponible: false },
+//   { id: 3, nombre: "zapato", precio: 1000, disponible: false },
+//   { id: 4, nombre: "correa", precio: 950, disponible: false },
+// ];
 
-let nombre = prompt("Ingrese el nombre del producto a verrificar");
-let identificador = false;
+// let nombre = prompt("Ingrese el nombre del producto a verrificar");
+// let identificador = false;
 
-for (const producto of productos) {
-  if (producto.nombre === nombre) {
-    identificador = true;
-  }
-}
+// for (const producto of productos) {
+//   if (producto.nombre === nombre) {
+//     identificador = true;
+//   }
+// }
 
-if (identificador) {
-  alert("producto encontrado");
-} else {
-  alert("producto no encontrado");
-}
+// if (identificador) {
+//   alert("producto encontrado");
+// } else {
+//   alert("producto no encontrado");
+// }
+
+
+// const productos = [
+//   { id: 1, nombre: "camisa", precio: 700, disponible: false },
+//   { id: 2, nombre: "pantalon", precio: 1350, disponible: false },
+//   { id: 3, nombre: "zapato", precio: 1000, disponible: false },
+//   { id: 4, nombre: "correa", precio: 950, disponible: false },
+// ];
+
+// let nombre = prompt("ingrese el nonbre del producto a colocar como disponible");
+// for (const producto of productos) {
+//   if (producto.nombre === nombre) {
+//     producto.disponible = true;
+//   }
+// }
+
+// console.log(productos);
