@@ -53,7 +53,47 @@
 // console.log(nombres.includes("Pedro"));// saber si un elemento se encuentra dentro del arreglo
 // console.log(nombres.includes("Miguelito"));
 
-const nombres = ['Rita', 'Pedro', 'Miguel', 'Ana', 'Vanesa'];
-nombres.reverse();
+// const nombres = ['Rita', 'Pedro', 'Miguel', 'Ana', 'Vanesa'];
+// nombres.reverse();
 
-console.log(nombres);
+// console.log(nombres);
+
+// const nombres = ['Rita', 'Pedro', 'Miguel', 'Ana', 'Vanesa'];
+
+// const eliminar = (nombre) => {
+//   let index = nombres.indexOf(nombre);
+
+//   if(index != -1){
+//     nombres.splice(index, 1);
+
+//     console.log(nombres);
+//   }
+// };
+
+// eliminar("Ana");
+
+const productos = [
+  { id: 1, nombre: "camisa", precio: 700 },
+  { id: 2, nombre: "pantalon", precio: 1350 },
+  { id: 3, nombre: "zapato", precio: 1000 },
+  { id: 4, nombre: "correa", precio: 950 },
+];
+
+for(const producto of productos){
+  console.log(producto.id);
+  console.log(producto.precio);
+  console.log(producto.nombre);
+}
+
+// class Producto{
+//   constructor(nombre, precio){
+//     this.nombre = nombre;
+//     this.precio = precio;
+//   }
+// }
+
+// const productos = [];
+// productos.push(new Producto("arroz", 45));
+// productos.push(new Producto("pan", 34));
+
+// console.log(productos);
