@@ -71,7 +71,7 @@
 // };
 
 // eliminar("Ana");
-
+/* 
 const productos = [
   { id: 1, nombre: "camisa", precio: 700 },
   { id: 2, nombre: "pantalon", precio: 1350 },
@@ -83,7 +83,7 @@ for(const producto of productos){
   console.log(producto.id);
   console.log(producto.precio);
   console.log(producto.nombre);
-}
+} */
 
 // class Producto{
 //   constructor(nombre, precio){
@@ -97,3 +97,25 @@ for(const producto of productos){
 // productos.push(new Producto("pan", 34));
 
 // console.log(productos);
+
+const productos = [
+  { id: 1, nombre: "camisa", precio: 700 },
+  { id: 2, nombre: "pantalon", precio: 1350 },
+  { id: 3, nombre: "zapato", precio: 1000 },
+  { id: 4, nombre: "correa", precio: 950 },
+];
+
+let nombre = prompt("Ingrese el nombre del producto a verrificar");
+let identificador = false;
+
+for (const producto of productos) {
+  if (producto.nombre === nombre) {
+    identificador = true;
+  }
+}
+
+if (identificador) {
+  alert("producto encontrado");
+} else {
+  alert("producto no encontrado");
+}
