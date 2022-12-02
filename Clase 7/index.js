@@ -160,3 +160,41 @@
 //   // a es igual a b
 //   return 0;
 // }));
+
+//Math
+// console.log(Math.E);
+// console.log(Math.PI);
+// console.log(Math.max(1, 2, 3, 4, 5, 56, 34, 4, 44, 900));
+// console.log(Math.min(1, 2, 3, 4, 5, 56, 34, 4, 44, 900));
+// console.log(Math.ceil(3.24));
+// console.log(Math.floor(3.7));
+// console.log(Math.round(3.14));
+// console.log(Math.round(3.54));
+// console.log(Math.sqrt(9));
+// console.log(Math.random());
+// console.log(Math.ceil(Math.random() * 10));
+
+//Date
+// console.log(Date());
+// console.log(new Date(2022, 11, 1));
+// console.log(new Date("December 1, 2022 20:12:15"));
+
+// let hoy = new Date("December 1, 2022 20:12:15");
+
+// console.log(hoy.getFullYear());
+// console.log(hoy.getMonth());
+// console.log(hoy.getDay());
+
+// console.log(hoy.toDateString());
+// console.log(hoy.toLocaleString());
+// console.log(hoy.toLocaleDateString());
+// console.log(hoy.toTimeString());
+
+const navidad = new Date("December 25, 2022");
+const hoy = new Date();
+
+console.log(navidad - hoy);
+
+const milisegundosPorDia = 86400000;
+
+console.log((navidad - hoy) / milisegundosPorDia);
