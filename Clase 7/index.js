@@ -33,6 +33,8 @@
 
 // const numeros = [1, 2, 3, 4, 5];
 
+//!! IMPORTANTE
+
 // numeros.forEach(item => { //forEach recorre cada uno de lso elementos
 //   console.log(item);
 // });
