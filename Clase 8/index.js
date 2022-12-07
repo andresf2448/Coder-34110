@@ -77,6 +77,7 @@ productos.forEach(producto => {
     <h2>ID: ${producto.id}</h2>
     <p>Nombre: ${producto.nombre}</p>
     <b>$${producto.precio}</b>
+    <img src="https://cdn.pixabay.com/photo/2016/10/31/14/55/rottweiler-1785760_960_720.jpg">
   `;
 
   contenedor.append(div);
