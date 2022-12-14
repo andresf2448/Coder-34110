@@ -80,7 +80,7 @@ const productos = [
   { id: 4, nombre: "zapato", precio: 200 },
 ];
 
-productos.forEach(item => {
+productos.forEach((item) => {
   let div = document.createElement("div");
   div.innerHTML = `
     <h2>ID: ${item.id}</h2>
@@ -94,6 +94,15 @@ productos.forEach(item => {
 
   const ejecutar = (id) => {
     console.log(id);
-  }
+  };
   boton.addEventListener("click", () => ejecutar(item.id));
 });
+
+let objeto = { nombre: "andres", edad: 45 };
+
+let mensaje = `
+  nombre: ${objeto.nombre}
+  edad: ${objeto.edad}
+    `;
+
+alert(mensaje);
