@@ -94,10 +94,91 @@ operador1 || operador2 si el operador1 representa algo falso entonces retorna op
 
 // console.log(usuario?.nombre || "El usuario no existe");
 
-const usuario = {
-  nombre: "andres",
-  edad: 45,
-  telefonos: null
+// const usuario = {
+//   nombre: "andres",
+//   edad: 45,
+//   telefonos: null
+// }
+
+// console.log(usuario?.telefonos?.casa || "la propiedad no existe");
+
+// let usuario = {
+//   nombre: "pepito",
+//   edad: 34,
+//   direccion: "AV",
+//   telefono: {
+//     celular: 654654,
+//     casa: 5684654,
+//     trabajo: 65498,
+//   },
+// };
+
+// let nombre = usuario.nombre;
+// let edad = usuario.edad;
+// let direccion = usuario.direccion;
+
+// let {
+//   nombre: namePerson,
+//   edad,
+//   telefono: { trabajo },
+// } = usuario;
+// console.log(namePerson, edad);
+// console.log(trabajo);
+
+/* let usuario = {
+  nombre: "pepito",
+  edad: 34,
+};
+
+const desestructurar = ({ nombre, edad }) => {
+  console.log(nombre, edad);
+};
+
+desestructurar(usuario); */
+
+// const nombres = ["camila", "sofi", "andres", "camilo", "mateo"];
+
+// const [a, b, , c] = nombres;
+// console.log(a, b, c);
+
+/* let persona1 = "pepito";
+let persona2 = persona1;
+
+persona2 = "marian";
+
+console.log(persona1); */
+
+// let persona1 = {nombre: "pepito", edad: 45};
+// let persona2 = {...persona1};
+
+// persona2.nombre = "camila";
+// console.log(persona1);
+// console.log(persona2);
+
+// const nombres = ["camila", "sofi", "andres", "camilo", "mateo"];
+// console.log(...nombres);
+// console.log(nombres.join(" "));
+
+// const numeros = [1, 2, 4, 5, 34, 6, 999, 23, 2];
+
+// console.log(Math.max(...numeros));
+// console.log(Math.min(...numeros));
+
+// const usuario1 = {
+//   nombre: "camila",
+//   edad: 24,
+// };
+
+// const usuario2 = {
+//   ...usuario1,
+//   direccion: "AV",
+//   edad: 35
+// };
+
+// console.log(usuario2);
+
+function sumar(...numeros) {
+  return numeros.reduce((acum, numero) => acum + numero, 0);
 }
 
-console.log(usuario?.telefonos?.casa || "la propiedad no existe");
+console.log(sumar(3, 2, 4, 6, 7, 9, 10));
