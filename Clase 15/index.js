@@ -33,21 +33,21 @@
 
 // const lista = document.getElementById("lista");
 
-// fetch("data.json")
-// .then(response => response.json())
-// .then(data => {
-//   data.forEach(producto => {
-//     const li = document.createElement("li");
-//     li.innerHTML = `
-//       <h3>${producto.nombre}</h3>
-//       <p>${producto.id}</p>
-//       <b>$${producto.precio}</b>
-//       <hr/>
-//     `;
+fetch("data.json")
+.then(response => response.json())
+.then(data => {
+  data.forEach(producto => {
+    const li = document.createElement("li");
+    li.innerHTML = `
+      <h3>${producto.nombre}</h3>
+      <p>${producto.id}</p>
+      <b>$${producto.precio}</b>
+      <hr/>
+    `;
 
-//     lista.append(li);
-//   });
-// });
+    lista.append(li);
+  });
+});
 
 // const lista = document.getElementById("lista");
 
