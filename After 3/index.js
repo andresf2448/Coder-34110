@@ -30,6 +30,8 @@ const getCharacters = async () => {
       let div = document.createElement("div");
       div.innerHTML = `
         <img src="${character.image}" />
+        <p>${character.species}</p>
+        <p>${character.species}</p>
       `;
 
       document.body.append(div);
